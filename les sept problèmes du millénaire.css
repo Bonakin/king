@@ -1,0 +1,166 @@
+body{
+     background-image:url("ecran2.jpg") ;
+     background-size: 100%;
+     background-attachment: fixed;
+}
+.div1{
+     background-image: url("ecran2.jpg");
+     height: 100px;
+     width: 700px;
+     margin-left: 50px;
+     border-radius: 5px;
+     margin-top: 50px;
+     border: 3px ridge green;
+}
+.div1:hover{
+     background-color: rgb(250, 252, 251);
+     color: rgb(248, 212, 4);
+     transform: translateX(12px);
+     transform: translateY(12px);
+     transition: 2s;
+}
+.h11{
+     font-size: 30px;
+     color: rgb(233, 0, 0);
+}
+
+.img2:hover{
+   
+     transform: translateX(5px);
+     transition: 1s;
+ }
+ .img2{
+     position: absolute;
+     left: 88%;
+ }
+ .img1:hover{
+     transform: translateX(5px);
+     transition: 1s;
+ }
+.h2{
+     font-size: 20px;
+     color: rgba(1, 27, 7, 0.904);
+}
+.m:hover{
+     transform: translateX(20px);
+     transform: translateY(20px);
+     transition: 1s;
+     
+}
+.h:hover{
+     color: red;
+     transform: translateX(20px);
+     transform: translateY(20px);
+     transition: 1s;
+
+}
+.m{ 
+     position: absolute;
+     top: 0px;
+     left: 20%;
+}
+.h{
+     font-size: 70pt;
+     color: rgb(22, 221, 171);
+     width: 70px;
+     display: inline-block;
+}
+.div3{
+     opacity: 90%;
+     background-image: url("écran3.jpg");
+     height: 700px;
+     width: 800px;
+     border-radius: 50px;
+     border: 4px ridge red;
+     transition: 20x all;
+     margin-top: 50px;
+     background-attachment: fixed;
+     box-shadow: 10px 10px 10px rgb(245, 235, 235) ;
+}
+.div3:hover{
+     opacity: 100%;
+     color: rgb(0, 255, 42);
+     transition: 2s;
+     transform: translateX(10px);
+     transform: translateY(10px);
+     box-shadow: 5px 5px 10px rgb(115, 255, 0) inset ;
+}
+.h3 :hover{
+     color: rgb(0, 255, 42);
+     transition: 0.5s;
+     transform: translateY(20px);
+}
+.h3{
+     font-size: 30px;
+     box-shadow: 5px 5px 10px rgb(115, 255, 0) ;
+     color: rgb(255, 255, 255);
+     text-decoration: underline;
+}
+.p1{
+     font-size: 20px;
+     color: rgb(243, 239, 4);
+     width: 700px;
+}
+.span{
+     margin: 50px;
+}
+spans{
+     
+     text-decoration: solid;
+     font-size: 20pt;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: indigo;
+
+}
+.div4{
+     background-color: rgb(45, 3, 94);
+     width: 100%;
+     height: 300px;
+     font-size: xx-large;
+     color: rgb(42, 230, 4);
+     padding: 10px;
+     border-top: 20px;
+     border-radius: 40px;
+     box-shadow: 5px 5px 10px 6px rgb(224, 4, 4);
+     margin-top: 50px;
+     position: absolute;
+     top: 6000px;
+     
+}
+.div5{
+     position: absolute;
+     left: 80%;
+     top: 0px;
+     text-align: left;
+}
+a{
+     text-decoration: none;
+     color: red;
+     background-color:yellow;
+     padding: 2px;
+     border-radius: 10px;
+     box-shadow: 10px 10px 5px green;
+}
+.h111{
+     position: absolute;
+     left: 25%;
+     top: 0%;
+     text-shadow: 5px 5px 10px rgb(244, 248, 244);
+}
+span{
+     font-size: 70pt;
+     color: black;
+     
+}
+span:hover{
+     transform: translatey(12px);
+     transition: 1s;
+}
+ 
+.li{
+     margin: 10px;
+     
+}
+li{
+     list-style: none;
+}
